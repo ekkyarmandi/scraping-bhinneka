@@ -49,3 +49,4 @@ for a in page.find_all("a",context):
 
 json.dump(product_data,open("product.json","w"))
 browser.quit()
+print("done")

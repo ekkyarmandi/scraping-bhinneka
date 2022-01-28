@@ -48,3 +48,4 @@ for a in page.find_all("a",context):
     except: pass
 
 json.dump(product_data,open("product.json","w"))
+browser.quit()
